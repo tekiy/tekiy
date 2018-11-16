@@ -9,6 +9,8 @@ public class Test {
 
         System.out.println("localhost");
 
+
+        User user = new User();
     }
 
 }
