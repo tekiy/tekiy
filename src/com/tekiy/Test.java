@@ -10,6 +10,9 @@ public class Test {
         System.out.println("localhost");
 
         User user = new User();
+
+        user.setName("test");
+        user.setAge(11);
     }
 
 }
