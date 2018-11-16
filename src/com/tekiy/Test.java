@@ -6,13 +6,13 @@ import java.util.List;
 
 public class Test {
     public static void main(String[] args) {
-        System.out.println("remote");
+        System.out.println("remote_remote");
         
         User user = new User();
-
-        System.out.println("remote1");
-        
-        System.out.println("new");
+        user.setAge(11);
+        System.out.println("remote_remote2");
+              
+        System.out.println("new2");
 
     }
 
